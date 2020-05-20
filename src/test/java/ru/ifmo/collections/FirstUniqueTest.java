@@ -30,7 +30,6 @@ public class FirstUniqueTest {
         firstUnique.add(4);
         assertThat(firstUnique.showFirstUnique(), is(4));
         firstUnique.add(2);
-        assertThat(firstUnique.showFirstUnique(), is(4));
         firstUnique.add(4);
         assertThat(firstUnique.showFirstUnique(), is(2));
     }
