@@ -30,7 +30,7 @@ public class FirstUnique {
         if (whiteList.contains(value)) {
             whiteList.remove(value);
             blackList.add(value);
-        } else if (!multyInt.contains(value)) {
+        } else if (!blackList.contains(value)) {
             whiteList.add(value);
         }
     }
